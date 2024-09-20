@@ -28,14 +28,12 @@ html{
 /* LAYOUT */
 
 .container{
-    display:flex;
-    justify-content: space-between;
-    width: 600px;
+    max-width: 600px;
     /* width: 60%; */
     margin: 0 auto;
-    border: 1px dashed black ;
+    border: 1px dashed black;
 }
-.navbar .container{
+.navbar{
     background-color: #daa520;
 }
 
@@ -46,9 +44,17 @@ html{
 
 /* HEADER */
 
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 600px;
+}
+
 .main-header{
     background-color: #add8e6;
     padding: 10px;
+    
 }
 
 .main-menu{
@@ -68,4 +74,32 @@ html{
 
 .hero{
     background-color: #00008b;
+}
+
+.row{
+    display: flex;
+}
+
+.border-left{
+    border-left: 1px dashed black;
+}
+
+.column-33{
+    width: calc(100%/3);
+}
+
+.column-66{
+    width: calc((100%/3)*2);
+}
+
+.content-2{
+    background-color: #d3d3d3;
+}
+
+.bg-blue{
+    background-color: #1e90ff;
+}
+
+.bg-pink{
+    background-color: #ffc0cb;
 }
