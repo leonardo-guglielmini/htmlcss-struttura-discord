@@ -17,10 +17,55 @@ a{
 
 html{
     font-family: "Poppins", sans-serif;
+    font-size:14px;
 }
 
-/*HEADER*/
+/* DEBUG */
+.debug{
+    height:200px
+}
+
+/* LAYOUT */
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    width: 600px;
+    /* width: 60%; */
+    margin: 0 auto;
+    border: 1px dashed black ;
+}
+.navbar .container{
+    background-color: #daa520;
+}
+
+.hero .container{
+    background-color: #ee82ee;
+    width: 450px;
+}
+
+/* HEADER */
 
 .main-header{
     background-color: #add8e6;
+    padding: 10px;
+}
+
+.main-menu{
+    display: flex;
+    gap:10px;
+    border-left: 1px dashed black ;
+    border-right: 1px dashed black ;
+    /* padding: 0px 40px */
+    padding: 0px 20% ;
+}
+
+/* MAIN */
+
+.padding-vert-20{
+    padding: 20px 0px;
+}
+
+.hero{
+    background-color: #00008b;
 }
