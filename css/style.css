@@ -22,7 +22,7 @@ html{
 
 /* DEBUG */
 .debug{
-    height:200px
+    border: 1px dashed black;
 }
 
 /* LAYOUT */
@@ -31,8 +31,17 @@ html{
     max-width: 600px;
     /* width: 60%; */
     margin: 0 auto;
-    border: 1px dashed black;
 }
+
+.height-200{
+    height: 200px;
+
+}
+
+.height-300{
+    height: 300px;
+}
+
 .navbar{
     background-color: #daa520;
 }
@@ -92,7 +101,15 @@ html{
     width: calc((100%/3)*2);
 }
 
+.column-100{
+    width: 100%;
+}
+
 .content-2{
+    background-color: #d3d3d3;
+}
+
+.content-4{
     background-color: #d3d3d3;
 }
 
@@ -103,3 +120,8 @@ html{
 .bg-pink{
     background-color: #ffc0cb;
 }
+
+.bg-green{
+    background-color: #228b22;
+}
+
